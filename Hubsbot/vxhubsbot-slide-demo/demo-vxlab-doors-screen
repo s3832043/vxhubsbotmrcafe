@@ -1,6 +1,0 @@
-#! /bin/bash
-echo "This shortcut is deprecated, please use the following:"
-echo "./run_demos door_demo"
-echo ""
-echo "running anyway..."
-./build && docker run --cap-add=SYS_ADMIN -it vxbot npm run demo_picker 1
