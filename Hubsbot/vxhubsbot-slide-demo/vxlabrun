@@ -1,0 +1,1 @@
+./build && docker run --cap-add=SYS_ADMIN -it vxbot npm run vxlab
