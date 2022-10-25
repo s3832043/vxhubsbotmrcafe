@@ -95,9 +95,9 @@ const proximityDoors = async page => {
         let distToSecondFloor = posObj.distanceTo(points[2].getAttribute('position'))
 
 
-        if (distToCafe < 5){cafeDoors_activated = true}
-        if (distToFirstFloor < 5) {first_floor_door_activated = true}
-        if (distToSecondFloor < 5) {second_floor_door_activated = true}
+        if (distToCafe < 6){cafeDoors_activated = true}
+        if (distToFirstFloor < 6) {first_floor_door_activated = true}
+        if (distToSecondFloor < 6) {second_floor_door_activated = true}
 
         //console.log(` [User ${i+1}] distance: ${dist.toFixed(4)}`);
       });
