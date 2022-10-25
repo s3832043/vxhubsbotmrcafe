@@ -19,7 +19,7 @@ const imageSequence = async page => {
     // Load initial image
     let image = loadAssetsFromURLs([images[0]])[0]
     image.setAttribute('scale','5.5')
-    image.setAttribute('position', '-1.5 2.5 25.5')
+    image.setAttribute('position', '2.5 2.5 25.4')
     image.setAttribute('rotation', '0 0 0')
 
     let index = 1
