@@ -3,8 +3,8 @@ const imageSequence = async page => {
   const interval = await page.evaluate(() => {
     // Images
     const images = [
-      'https://www.unistude.com/wp-content/uploads/2021/02/rmit-canvas-login-page.jpg',
-      'https://www.thecampusbookstore.com/wp-content/uploads/2020/01/RMIT-logo.jpg'
+      'https://uploads-prod.reticulum.io/files/e6a52880-6b70-4793-bb43-43890a8366f4.jpg',
+      'https://uploads-prod.reticulum.io/files/2196516d-1ae0-4863-bf19-1b44816a59d5.jpg'
     ]
 
     // Function to load assets
@@ -18,8 +18,8 @@ const imageSequence = async page => {
 
     // Load initial image
     let image = loadAssetsFromURLs([images[0]])[0]
-    image.setAttribute('scale', '1.5 1.5 1.5')
-    image.setAttribute('position', '3 2 -5')
+    image.setAttribute('scale','5.5')
+    image.setAttribute('position', '-1.5 2.5 25.5')
     image.setAttribute('rotation', '0 0 0')
 
     let index = 1
