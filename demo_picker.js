@@ -13,7 +13,7 @@ import slideDeck from './demos/slideDeck.js'
 
 import { ANSIColor, textWithColor, routeLogsToContainer } from './puppet_logging.js'
 
-const config = JSON.parse(fs.readFileSync('./config.json'))
+const config = JSON.parse(fs.readFileSync('./vxlab_config.json'))
 
 const selectDemo = async () => {
 
